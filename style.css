@@ -1,0 +1,260 @@
+.container{
+width: 1400px;
+min-height: 200px;
+background-color:black;
+padding: 15px;
+margin: 0 auto;
+}
+nav{
+    padding: 20px;
+    justify-content: space-around;
+    display: flex;
+}
+
+input{
+    width: 150px;
+   height: 55px; 
+   font-size: 30px;
+   border-radius: 10px;
+   background-color: azure;
+}
+input:focus{
+    box-shadow: 5px 5px 5px 5px navy;
+}
+
+body{
+    /* background-color: b; */
+}
+nav a{
+    color: aliceblue;
+    text-decoration: none;
+}
+nav img{
+    width: 70px;
+    
+}
+header{
+    color:white;
+    text-align: center;
+    font-size: 40px;
+}
+.fon_img{
+    width: 1000px;
+    height: 600px;
+    background:url("./img/picture.PNG");
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+.first_line{
+    width: 1400px;
+    height: 800px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.first_line div{
+    color: white;
+    text-align: center;
+}
+
+.first_line img{
+    width: 500px;
+    height: 500px;
+}
+
+
+
+/* Footer */
+/* Сталь зміни теми */
+  body {
+    background-color: white;
+    color: black;
+    transition: all 0.3s ease;
+  }
+
+  .dark-theme {
+    background-color: black;
+    color: white;
+  }
+
+  #themeToggle {
+    position: fixed;
+    bottom:  50px;
+    left: 80px;
+    cursor: pointer;
+    font-size: 24px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+  }
+footer{
+    width: 1400px;
+    min-height: 250px;
+    background-color: gray;
+
+}
+.contact{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+.text_logo{
+    position: relative;
+    top: 25px;
+    left: 10px;
+
+}
+
+.footer_img{
+    width: 100px;
+    height: 100px;
+}
+.img_logo{
+    display: flex;
+}
+.contact_right h3{
+    position: relative;
+    top: 45px;
+}
+ nav a:hover{
+    background-color: green;
+    border-radius: 20px;
+    padding: 15px;
+ }
+
+.vic:hover{
+    background-color: bisque;
+    border-radius: 15px;
+    color: black;
+    transition: all 0.5s ease;
+}
+
+
+/* Опускання по навігації */
+
+  #scroll-up-button {
+    position: fixed; /* Фіксуємо кнопку в певному місці на екрані */
+    bottom: 20px; /* Відступ від низу екрану */
+    right: 50px; /* Відступ від правого краю екрану */
+    background-color: #4CAF50; /* Зелений колір */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none; /* Ховаємо кнопку спочатку */
+  }
+  
+  #scroll-up-button img{
+    width:50px;
+    height: 50px;
+    display: block;
+  }
+
+
+  /* Пошук по сайту */
+  #search-input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #search-button {
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  /* Стилізуєм кошик */
+  
+#cart h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+
+#cart, #confirmation {
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+#checkout-button, #confirm-button {
+    background-color: #6a5acd;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#checkout-button:hover, #confirm-button:hover {
+    background-color: #483d8b;
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+    background-color: #3498db;
+    margin: 100px auto;
+
+  }
+.box img{
+  width: 50px;
+    height: 50px;
+}
+
+
+
+.cart-container {
+    margin: 20px;
+}
+.cart-item {
+    margin: 10px 0;
+}
+.cart-total {
+    font-weight: bold;
+}
+.buy-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+.buy-btn:hover {
+    background-color: #45a049;
+}
+#cart {
+    display: none;
+}
+.product {
+    margin-bottom: 20px;
+}
+
+.button_block img{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    position: relative;
+    top: 20px;
+}
+.posite{
+    position: relative;
+    top: -119px;
+    display: block;
+    
+}
+.posite2{
+    position: relative;
+    top: -30px;
+    display: block;
+    
+}

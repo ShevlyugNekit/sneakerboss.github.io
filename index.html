@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SneakerBoss</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+
+</head>
+<body>
+  <div class="container">
+    <header>
+     <nav>
+        <img src="./img/logo1-removebg-preview.png"alt="">
+        <a href="">SneakerBoss</a>
+        <a href="">Товари</a>
+        <a href="">Про нас</a>
+        <input type="text" id="search-input" placeholder="Пошук...">
+        <button id="search-button">Пошук</button>
+        <a href="">Підтримка</a>
+     </nav>
+    
+     <div class="fon_img">
+        <h1>Магазин кросівок SneakerBoss</h1>
+     </div>
+    </header>
+    <main>
+      <h1>Товари</h1>
+
+      <div class="first_line ">
+        <div class="nikeshoes vic">
+          <h2>The Nke Air Max Plus</h2>
+          <img  class = "posite2"src="https://imagedelivery.net/2DfovxNet9Syc-4xYpcsGg/d2ec5c7f-4143-4eab-23b6-723448fe7400/products"alt="">
+          <h4>2800 грн</h4>
+          <div class="button_block">
+            <button class="buy-btn" data-name="Nike Air Max" data-price="6500">Buy</button>
+            <img class="img_buy" src="/img/images-removebg-preview.png" alt="">
+          </div>
+        
+        </div>
+
+
+          <div class="adikshoes vic">
+            <h2>Adidas Campus</h2>
+            <img src="img/adidas-removebg-preview.png"alt="">
+            <h4>1900 грн</h4>
+            
+            <div class="button_block">
+              <button class="buy-btn" data-name="Adidas Ultra Boost" data-price="1900">Buy</button>
+              <img  class="img_buy" src="/img/images-removebg-preview.png" alt="">
+            </div>
+          
+          </div>
+
+   </div>
+   <div class="first_line">
+            <div class="nbhoes vic">
+              <h2>New Balance 530 White Navy</h2>
+              <img src="img/newbalance-removebg-preview.png"alt="">
+              <h4>12000 грн</h4>
+              
+              <div class="button_block">
+                <button class="buy-btn" data-name="New Balance 530 White Navy" data-price="12000">Buy</button>
+                <img class="img_buy" src= "/img/images-removebg-preview.png"alt="">
+              </div>
+              
+            </div>
+
+              <div class="pumashoes vic">
+                <h2>Puma X-Ray 2 Square AC PS White/Red</h2>
+                <img  class = "posite"src="https://www.runforest.com/cdn/shop/products/09444-65_001.png?v=1670006571"alt="">
+
+                <h4>3200 грн</h4>
+
+                <div class="button_block">
+                  <button class="buy-btn" data-name="Puma Suede Classic" data-price="3200">Buy 
+                    
+                  </button>
+                  <img class="img_buy" src="/img/images-removebg-preview.png" alt="">
+                </div>
+                
+              </div>
+
+   </div> 
+    
+    </main>
+    
+    <footer>
+
+      <div class="contact">
+      
+        <button id="scroll-up-button">
+          <img src="https://freepngimg.com/save/133698-vector-up-arrow-free-clipart-hq/980x980" alt="">
+        </button>
+        
+        <button id="themeToggle">🌞</button>
+ 
+        <div class ="contact_left">
+          <h2>Працюємо для Вас</h2>
+          <h2>З © 2018—2024</h2>
+          <div class="img-logo" src="./img/logo-removebg-preview (2).png">
+            <img src="" alt="">
+            <h4 class="text_logo"></h4>
+          </div>
+
+</div>  
+
+          <div class="contact_right">
+
+            <h2>Контактна інформація</h2>
+            <h2>093-772-05-63</h2>  
+            <h2>093-772-05-63</h2>
+                <h3>офіс.вул. Шолуденка 3</h3>
+</div>
+
+     </div> 
+    </footer>
+
+   <div class="cart-container">
+        <h2>Ваш кошик</h2>
+        <div id="cart"></div>
+        <p class="cart-total">Сума замовлення: <span id="total">0</span> грн</p>
+        <button onclick="confirmOrder()">Підтвердити замовлення</button>
+    </div>
+
+  
+</div> 
+
+</body>
+    <script src="./script.js"></script>
+    
+</html>
